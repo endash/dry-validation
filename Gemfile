@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 
 gemspec
 
+gem 'dry-types', github: 'coop/dry-types', branch: 'json-coercions'
+
 group :test do
   gem 'i18n'
   gem 'codeclimate-test-reporter', platform: :rbx
